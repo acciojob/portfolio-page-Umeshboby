@@ -4,13 +4,32 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<h1 role=heading>Portfolio</h1>
+	<div id="nav-bar">
+	<nav role=navigation>
+		<a style="margin-right:30px" href="#">Home</a>
+		<a style="margin-right:30px"href="#">News</a>
+		<a style="margin-right:30px"href="#">Contact</a>
+		<a style="margin-right:30px"href="#">About</a>
+	</nav>
+	</div>
+	<div id="img">
+	<image role=img src="https://media.istockphoto.com/id/1408445036/photo/programming-web-pages-with-html-and-css-code-on-a-desktop-computer.jpg?s=2048x2048&w=is&k=20&c=3mxT0e9dKBUhBU_Fr_MD0S4jTbH06VxDqcJI4E4vp4o=" alt="HTML Banner" width=400px height=400px/>
+	</div>
+	<p id="des">A portfolio website is a curated, online space that showcases your best work. It's one of the most practical and memorable ways to share your work with press, potential collaborators or employers. Much like your PDF portfolio, a portfolio website can be used when applying for jobs or internships</p>
+	<ul role=list>
+		<li role=listitem>HTML</li>
+		<li role=listitem>CSS</li>
+		<li role=listitem>JS</li>
+	</ul>
+	
 </body>
 
 </html>
